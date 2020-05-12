@@ -10,4 +10,5 @@ There are three stages for that project:
 
 you can find code of image processing in bin/Debug/image_processing.py
 and formatting in bin/Debug/format3.py
+also found examples in :Flowchart Examples
 ```
