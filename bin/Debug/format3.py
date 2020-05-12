@@ -110,7 +110,7 @@ output: file name contains python code
 
 def formatting(tokens1,tokens2)	:
 	
-#open output file
+	#open output file
 	file = open("output.py","w") 
 
 	#adjusting lists before formatting
