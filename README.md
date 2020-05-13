@@ -23,3 +23,14 @@ also found examples in :Flowchart Examples
 4)Abdullah Khairy Ismail
 5)Omar Taher Saad abdo
 ```
+
+
+### Required Packages for the script 'image_processing.py':
+
+
+```
+1)Pytesseract
+2) Numpy
+3) cv2
+4) PIL (Pillow)
+```
