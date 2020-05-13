@@ -25,7 +25,7 @@ also found examples in :Flowchart Examples
 ```
 
 
-### Required Packages for the script 'image_processing.py':
+### Required Packages for the script image_processing.py:
 
 
 ```
