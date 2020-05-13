@@ -29,7 +29,7 @@ also found examples in :Flowchart Examples
 
 
 ```
-1)Pytesseract
+1) Pytesseract
 2) Numpy
 3) cv2
 4) PIL (Pillow)
