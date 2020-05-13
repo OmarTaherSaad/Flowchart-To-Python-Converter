@@ -31,6 +31,7 @@
             this.insertBtn = new MetroFramework.Controls.MetroButton();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.loadingBox = new System.Windows.Forms.PictureBox();
+            this.pythonPath = new MetroFramework.Controls.MetroTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.loadingBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,12 +52,20 @@
             // loadingBox
             // 
             this.loadingBox.Image = global::FC_to_Python.Properties.Resources.loading;
-            this.loadingBox.Location = new System.Drawing.Point(77, 94);
+            this.loadingBox.Location = new System.Drawing.Point(23, 94);
             this.loadingBox.Name = "loadingBox";
-            this.loadingBox.Size = new System.Drawing.Size(331, 230);
+            this.loadingBox.Size = new System.Drawing.Size(424, 276);
             this.loadingBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.loadingBox.TabIndex = 1;
             this.loadingBox.TabStop = false;
+            // 
+            // pythonPath
+            // 
+            this.pythonPath.Location = new System.Drawing.Point(40, 347);
+            this.pythonPath.Name = "pythonPath";
+            this.pythonPath.Size = new System.Drawing.Size(404, 23);
+            this.pythonPath.TabIndex = 2;
+            this.pythonPath.Text = "Enter Python.exe path here";
             // 
             // MainForm
             // 
@@ -66,6 +75,7 @@
             this.ClientSize = new System.Drawing.Size(487, 393);
             this.Controls.Add(this.loadingBox);
             this.Controls.Add(this.insertBtn);
+            this.Controls.Add(this.pythonPath);
             this.Name = "MainForm";
             this.Text = "Flowchart To Python Converter";
             ((System.ComponentModel.ISupportInitialize)(this.loadingBox)).EndInit();
@@ -78,6 +88,7 @@
         private MetroFramework.Controls.MetroButton insertBtn;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.PictureBox loadingBox;
+        private MetroFramework.Controls.MetroTextBox pythonPath;
     }
 }
 
